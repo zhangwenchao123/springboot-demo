@@ -31,6 +31,18 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.108.Final</version>
+        </dependency>
+        <!-- WebSocket client for testing -->
+        <dependency>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>1.5.4</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
